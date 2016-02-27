@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/action_camera"
+          android:icon="@drawable/ic_menu_camera"
+          android:title="@string/menu_takephoto"
+          android:showAsAction="always" />
+    
+    <item android:id="@+id/action_geo"
+          android:icon="@drawable/ic_menu_anchor"
+          android:title="@string/menu_takegeo"
+          android:showAsAction="always"/>
+    
+    <item android:id="@+id/action_wallet"
+          android:icon="@drawable/ic_menu_debt_list"
+          android:title="@string/StartMenuWallet"
+          android:showAsAction="always"/>
+    
+</menu>

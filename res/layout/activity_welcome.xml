@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_welcome" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/icon_logo_white512"
+        android:background="@color/customTrans" />
+
+    <Button
+        android:id="@+id/bWelcomeLogin"
+        android:layout_below="@+id/imageView1"
+        style="@style/ButtonBig"
+        android:layout_marginTop="85dp"
+        android:text="@string/login" />
+
+    <Button
+        android:id="@+id/bWelcomeRegister"
+        style="@style/ButtonBig"
+        android:layout_alignLeft="@+id/bWelcomeLogin"
+        android:layout_below="@+id/bWelcomeLogin"
+        android:layout_marginTop="15dp"
+        android:text="@string/register" />
+
+</RelativeLayout>

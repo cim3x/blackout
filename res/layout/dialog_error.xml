@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textColor="@color/customWhite"
+        android:drawableBottom="@drawable/bottom_border_white"
+        android:text="@string/error" />
+
+    <TextView
+        android:id="@+id/tvDialogErrorNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@color/customDarkBlue"
+        android:text="" />
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/ButtonBlue"
+        android:layout_gravity="center_horizontal"
+        android:text="Okey" />
+
+</LinearLayout>

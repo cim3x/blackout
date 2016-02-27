@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <!-- BUTTONS -->
+    <string name="back">Back</string>
+    <string name="delete">Delete</string>
+    <string name="set">Set</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="login">Log in</string>
+    <string name="register">Register</string>
+    <string name="error">Error</string>
+    <string name="skip">Skip</string>
+    <string name="adddeal">Add deal</string>
+    
+    <!-- GLOBAL -->
+    <string name="app_name">Blackout Diary</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="noconnection">You need Internet connection!</string>
+    <string name="yesconnection">You have Internet connection!</string>
+    <string name="legendary">Legendary</string>
+    <string name="s">S</string>
+    <string name="m">M</string>
+    <string name="l">L</string>
+    
+    <!-- NAVIGATION MENU -->
+    
+    <string-array name="nav_items">
+        <item>Profile</item>
+        <item>Party</item>
+        <item>Photo feed</item>
+        <item>Notification</item>
+        <item>Loan notebook</item>
+        <item>Search</item>
+        <item>Settings</item>
+        <item>Help</item>
+    </string-array>
+    
+    <string-array name="nav_drawables">
+        <item>@drawable/ic_menu_profile</item>
+        <item>@drawable/ic_menu_logo</item>
+        <item>@drawable/ic_menu_image</item>
+        <item>@drawable/ic_menu_glob</item>
+        <item>@drawable/ic_menu_debt_list</item>
+        <item>@drawable/ic_menu_search</item>
+        <item>@drawable/ic_menu_settings</item>
+        <item>@drawable/ic_menu_help</item>
+    </string-array>
+    
+    <!-- SETUPNEW -->
+    <string name="setupnew_partyname">Name of the party</string>
+    <string name="setupnew_partywhere">Where are you?</string>
+    <string name="setupnew_header">Setup new party</string>
+    <string name="usury_header">Debt list</string>
+    
+    <!-- NOTMANAGER -->
+    <string name="notification">Notifications</string>
+    <string name="createnew">Create new</string>
+    
+    <!-- LOCKPAD -->
+    <string name="small">small</string>
+    <string name="medium">medium</string>
+    <string name="large">large</string>
+    
+    <!-- MAIN MENU -->
+    <string name="start">Start party</string>
+    <string name="history">History view</string>
+    <string name="settings">Settings</string>
+    <string name="notebook">Loan notebook</string>
+    <string name="help">Help</string>
+    
+    <!-- REGISTER -->
+    <string name="register_name">Login:</string>
+    <string name="register_email">E-mail:</string>
+    <string name="register_pass">Password:</string>
+    <string name="register_passconfirm">Confirm:</string>
+    <string name="register_age">Age:</string>
+    <string name="register_weight">Weight:</string>
+    <string name="register_sex">Sex:</string>
+    <string-array name="sex_array">
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+    <string name="register_city">City:</string>
+    <string name="register_country">Country:</string>
+    <string name="notregister"><u>Don\'t you have an account yet?</u></string>
+    
+    <!-- PROFILE -->
+    <string name="profile_listTitle">Party list:</string>
+    
+    <!-- HISTORY DETAILS -->
+    <string name="historydetails_gallery">Photo gallery</string>
+    <string name="historydetails_map">Map</string>
+    
+    <!-- SETTINGS -->
+    <string name="hFunctions">Functions</string>
+    <string name="settings_synchronise">Synchronise</string>
+    <string name="settings_now">Now</string>
+    <string name="settings_endparty">End party</string>
+    <string name="settings_stop">Stop</string>
+    <string name="settings_geolocation">Geo location</string>
+    <string name="settings_logout">Logout</string>
+    <string name="settings_helper">Help tips</string>
+    
+    <string name="hParty">Party</string>
+    <string name="settings_deletelast">Delete last party</string>
+    <string name="settings_deleteall">Delete all parties</string>
+    
+    <string name="hPersonal">Personal</string>
+    
+    <string name="hSettings">Settings</string>
+    <string name="h1Beer">Beer amounts</string>
+    <string name="h1Vodka">Vodka amounts</string>
+    <string name="h1Wine">Wine amounts</string>
+    
+    <!-- UPLOAD TASK -->
+    <string name="uploadtask_status">Status: </string>
+    <string name="uploadtask_hFilesInQueue">Files in queue: </string>
+    <string name="uploadtask_hCurrentFile">Current file: </string>
+    
+    <!-- HELP -->
+    <string name="help_lockpad">On the bottom of the screen you can see your last activity. Above that there is a chart with permiles of alcohol in your blood. If you swipe to the left you go to Party log view.</string>
+    <string name="help_nots">Here are all notifications from people who you followed. You also can plan a new party or make a notification that you are searching one.</string>
+    <string name="help_partylog">This is the list of all users who joined to the party. And their activity. Swipe to the right to return to Recording view.</string>
+    <string name="help_profile">There are all personal inforamtion here. If you want to change something just click long on the text. Moreover there are all your parties. By clicking on the party you go to the detail view.\n\nIf you want to change avatar click on it and select photo you want.</string>
+    <string name="help_new">To set up new party write down its name and place name. If you planned a party or someone else made a party you are going to, choose it from the list.</string>
+    <string name="help_loan">When you add some one to your debt list it will show here. It will make easy to remember who owes you money.</string>
+    
+    <!-- INFO -->
+    <string name="info_startspot">To start recording your activities during the night just start a new party or join to existing one.</string>
+    <string name="info_start">The first step is setting a name of your event.</string>
+    <string name="info_lockpad">To save your activity you only have to click on the icon which matches the situation best. You also can set the quantity of drink in settings.</string>
+    <string name="info_photo">Because of disable to save photo on internal storage it has to be saved on your SD card, but if do not have external storage photos will be taken as well except that they will not show in your history detail.</string>
+    <string name="info_end">Very important is to end the activity when you won\'t be drunk :) Go to settings and click stop.</string>
+   	<string name="info_usury">The icon of list is ver useful when you borrow or lend money. To not forget amount and the person with whome you make a deal save it quickly and easly.</string>
+	<string name="info_history">To view your events go to profile.</string>
+   	<string name="info_historydetails">The chart represent amount of alcohol in your blood.</string>
+   	<string name="info_map">To see on map your night journey just being in detail view of a party click the button with text "See tour". Obviously only if you let to record your tour.</string>
+   	<string name="info_settings">In settings you are able to synchonised all saved events with web server or just the last one. You could set alarm too.</string>
+	
+   	<!-- DIALOG -->
+   	<string name="dialog_name">Name: </string>
+   	<string name="dialog_where">Where: </string>
+   	<string name="dialog_when">When: </string>
+   	<string name="dialog_login">Login: </string>
+   	<string name="dialog_password">Password: </string>
+   	
+   	<string name="dialog_title_status">Status</string>
+   	<string-array name="status_array">
+        <item>Make new party</item>
+        <item>Search for party</item>
+        <item>Set your status</item>
+    </string-array>
+    
+   	<string name="dialog_title_newnotsearch">Search for party</string>
+   	<string name="dialog_title_newnotparty">Announce your party</string>
+   	
+   	<string name="dialog_title_geo">Geolocalisation</string>
+   	<string name="dialog_whereareyou">Where are you?</string>
+   	<string name="dialog_title_usury">Save into debtlist</string>
+   	<string name="dialog_howmuch">How much?</string>
+   	<string name="dialog_who">Who?</string>
+   	<string name="dialog_borrow">If you borrow: </string>
+   	
+   	<string name="dialog_photosend">Draw icon here in order to send photo to server</string>
+   	<string name="dialog_photosave">Click on icon in order to save photo on your phone</string>
+   	
+   	<!-- MENU BAR -->
+   	<string name="menu_takephoto">Photo</string>
+   	<string name="menu_takegeo">Location</string>
+   	<string name="menu_profile">Profile</string>
+   	<string name="menu_not">Notifications</string>
+   	<string name="menu_status">Change status</string>
+   	<string name="menu_addnew">Add new party</string>
+   	<string name="menu_search">Search</string>
+   	<string name="menu_changeavatar">Change avatar</string>
+   	<string name="menu_updateuser">Refresh user</string>
+   	
+   	<!-- START MENU -->
+   	<string name="StartMenuLock">Start party</string>
+   	<string name="StartMenuProfile">Profile</string>
+   	<string name="StartMenuWallet">Loan notebook</string>
+   	<string name="StartMenuPhoto">Photo feed</string>
+   	<string name="StartMenuSettings">Settings</string>
+   	<string name="StartMenuHelp">Help</string>
+   	
+   	<!--  END MENU -->
+   	
+   	<!-- START HINTS -->
+   	<string name="hintTag">Tag value</string>
+   	
+   	<!-- START SERVICE NOTIFICATIONS -->
+   	<string name="service_lockpad_start">Epic party!</string>
+   	<string name="service_reminder">Wake up!</string>
+   	<string name="active_sync">Updateing your data</string>
+   	<string name="active_download">Downloading data</string>
+   	<string name="service_unread">You have some news</string>
+</resources>

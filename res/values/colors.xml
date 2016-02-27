@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="customWhite">#FFFFFFFF</color>
+    <color name="customLightBlue">#FF1DA9DA</color>
+    <color name="customDarkBlue">#FF0F5872</color>
+    <color name="customBlack">#FF000000</color>
+    <color name="customTrans">#00000000</color>
+    <color name="customGray">#FFA6A6A6</color>
+    <color name="customGray1">#FFC7C9C0</color>
+    <color name="customAb">#FF013646</color>
+    <color name="customTransBg">#77000000</color>
+    <color name="customBg1">#FF333333</color>
+    <color name="customBg">#FF01151C</color>
+    
+    <color name="highlight_filter_lightblue">#A51DA9DA</color>
+</resources>

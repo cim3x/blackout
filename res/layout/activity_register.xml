@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/customBg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+        <TextView
+            android:id="@+id/tvRegisterStatus"
+            style="@style/TextViewStatus" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp" >
+
+            <LinearLayout style="@style/RegisterLayoutCell" >
+
+                <EditText
+                    android:id="@+id/etRegisterName"
+                    style="@style/CustomEditText"
+                    android:hint="@string/register_name" >
+
+                    <requestFocus />
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout style="@style/RegisterLayoutCell" >
+
+                <EditText
+                    android:id="@+id/etRegisterEmail"
+                    style="@style/CustomEditText"
+                    android:hint="@string/register_email"
+                    android:inputType="textEmailAddress"
+                    />
+            </LinearLayout>
+
+            <LinearLayout style="@style/RegisterLayoutCell" >
+
+                <EditText
+                    android:id="@+id/etRegisterPass"
+                    style="@style/CustomEditText"
+                    android:hint="@string/register_pass"
+                    android:inputType="textPassword">
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout style="@style/RegisterLayoutCell" >
+
+                <EditText
+                    android:id="@+id/etRegisterPassConfirm"
+                    style="@style/CustomEditText"
+                    android:hint="@string/register_passconfirm"
+                    android:inputType="textPassword" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout style="@style/RegisterLayoutCell" >
+
+                <EditText
+                    android:id="@+id/etRegisterAge"
+                    style="@style/CustomEditText"
+                    android:hint="@string/register_age"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/RegisterLayoutCell" >
+
+                <EditText
+                    android:id="@+id/etRegisterWeight"
+                    style="@style/CustomEditText"
+                    android:hint="@string/register_weight"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/RegisterLayoutCell"
+                android:layout_marginBottom="20dp" >
+
+                <Spinner
+                    android:id="@+id/spRegisterSex"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:entries="@array/sex_array"
+                    android:padding="5dp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/bRegister"
+                style="@style/ButtonBig"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/register" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

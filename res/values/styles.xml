@@ -1,0 +1,287 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo"></style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo">
+        <item name="android:windowBackground">@color/customBg</item>
+        <item name="android:actionBarStyle">@style/CustomActionBar</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="CustomActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/customAb</item>
+        <item name="android:titleTextStyle">@style/CustomActionBar.TitleTextStyle</item>
+    </style>
+
+    <style name="CustomActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/customWhite</item>
+    </style>
+
+    <!-- GLOBAL -->
+    <style name="CustomButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/customLightBlue</item>
+        <item name="android:background">@drawable/button_clickable</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="ButtonBlue">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:background">@color/customDarkBlue</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="ButtonBig">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">250dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/button_clickable</item>
+        <item name="android:textColor">@color/customWhite</item>
+    </style>
+
+    <style name="ButtonBorderLess">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/customWhite</item>
+        <item name="android:background">@color/customTransBg</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <!-- EDITTEXT -->
+
+    <style name="CustomEditText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:background">@drawable/edittext_clickable</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="EditTextDialog">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/customWhite</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <!-- TEXTVIEW -->
+
+    <style name="TextViewStatus">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/customWhite</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- PROGRESSBAR -->
+    <style name="ProgressBar">
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:indeterminateDrawable">@drawable/progressbar_blue</item>
+        <item name="android:indeterminate">true</item>
+    </style>
+
+    <!-- START LockPad Activity -->
+
+    <style name="LockPadButtonOption" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">#0E0</item>
+        <item name="android:width">60dp</item>
+        <item name="android:height">30dp</item>
+    </style>
+
+    <style name="LockPadImageViewOption">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="LockPadImageViewOptionSmall">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="LockPadSmallImageViewOption">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="LockPadRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="LockPadTextViewTable">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/customDarkBlue</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- END LockerActivity -->
+    <!-- START Settings Activity -->
+
+    <style name="SettingsButtonClickable">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/button_clickable</item>
+    </style>
+
+    <style name="SettingsHeaderTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@drawable/bottom_border_blue</item>
+        <item name="android:textColor">@color/customLightBlue</item>
+    </style>
+
+    <style name="Settingsh1TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/bottom_border_white</item>
+        <item name="android:textColor">@color/customWhite</item>
+    </style>
+
+    <style name="SettingsSectionLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="SettingsRowLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <!-- END Settings Activity -->
+    <!-- START StartMenu Activity -->
+
+    <style name="StartMenuColumnLayout">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="StartMenuRowLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="StartMenuImageView">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">120dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="StartMenuTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <!-- END StartMenu Activity -->
+    <!-- START Login Activity -->
+
+    <style name="LoginTextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/customDarkBlue</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+    <!-- END Login Activity -->
+    <!-- START Register Activity -->
+
+    <style name="RegisterLayoutCell">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <!-- END Register Activity -->
+    <!-- START NotManager Activity -->
+
+    <style name="NotManagerTextViewButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:background">@color/customLightBlue</item>
+        <item name="android:textColor">@color/customBlack</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <!-- END NotManager Activity -->
+    <!-- START Nots Row -->
+
+    <style name="NotRowTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/customWhite</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <!-- END Nots Row -->
+    <!-- START Profile Activity -->
+
+    <style name="ProfileDataTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:textColor">@color/customWhite</item>
+    </style>
+
+    <!-- END Profile Activity -->
+
+</resources>

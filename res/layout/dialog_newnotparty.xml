@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/customTransBg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical" >
+
+        <TextView
+            style="@style/SettingsHeaderTextView"
+            android:text="@string/dialog_title_newnotparty" />
+
+        <EditText
+            android:id="@+id/etDialogNotName"
+            style="@style/EditTextDialog"
+            android:hint="@string/dialog_name" />
+
+        <EditText
+            android:id="@+id/etDialogNotWhere"
+            style="@style/EditTextDialog"
+            android:hint="@string/dialog_where" />
+
+        <CalendarView
+            android:id="@+id/cvDialogNotWhen"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <Button
+            android:id="@+id/bDialogNewNotConfirm"
+            style="@style/CustomButton"
+            android:text="@string/confirm" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/section1"
+            style="@style/SettingsSectionLayout" >
+
+            <TextView
+                android:id="@+id/tvHeader1"
+                style="@style/SettingsHeaderTextView"
+                android:text="@string/hFunctions" />
+
+            <LinearLayout style="@style/SettingsRowLayout" >
+
+                <TextView
+                    android:id="@+id/tvSync"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/settings_synchronise"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/bSync"
+                    style="@style/SettingsButtonClickable"
+                    android:text="@string/settings_now" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SettingsRowLayout" >
+
+                <TextView
+                    android:id="@+id/tvStopParty"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/settings_endparty"
+                    android:textColor="@color/customWhite"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/bStopper"
+                    style="@style/SettingsButtonClickable"
+                    android:text="@string/settings_stop" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SettingsRowLayout" >
+
+                <TextView
+                    android:id="@+id/tvGeoSpy"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/settings_geolocation"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <ToggleButton
+                    android:id="@+id/tbGeoSpy"
+                    style="@style/SettingsButtonClickable"
+                    android:checked="true" />
+            </LinearLayout>
+            
+            <LinearLayout style="@style/SettingsRowLayout" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/settings_helper"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <ToggleButton
+                    android:id="@+id/tbHelper"
+                    style="@style/SettingsButtonClickable"
+                    android:checked="false" />
+            </LinearLayout>
+            
+            <LinearLayout style="@style/SettingsRowLayout" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/settings_logout"
+                    android:textColor="@color/customWhite"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/bLogout"
+                    style="@style/SettingsButtonClickable"
+                    android:text="@string/settings_logout" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/section4"
+            style="@style/SettingsSectionLayout" >
+
+            <TextView
+                android:id="@+id/tvHeader4"
+                style="@style/SettingsHeaderTextView"
+                android:text="@string/hSettings" />
+
+            <TextView
+                style="@style/Settingsh1TextView"
+                android:text="@string/h1Beer" />
+
+            <LinearLayout style="@style/SettingsRowLayout" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="@string/s" />
+
+                <EditText
+                    android:id="@+id/etSettingsSmallBeer"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:ems="10"
+                    android:inputType="number" >
+                </EditText>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="@string/m" />
+
+                <EditText
+                    android:id="@+id/etSettingsMediumBeer"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:ems="10"
+                    android:inputType="number" >
+                </EditText>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="@string/l" />
+
+                <EditText
+                    android:id="@+id/etSettingsLargeBeer"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:ems="10"
+                    android:inputType="number" >
+                </EditText>
+            </LinearLayout>
+
+            <TextView
+                style="@style/Settingsh1TextView"
+                android:text="@string/h1Vodka" />
+
+            <LinearLayout style="@style/SettingsRowLayout" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="@string/s" />
+
+                <EditText
+                    android:id="@+id/etSettingsSmallVodka"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:ems="10"
+                    android:inputType="number" >
+                </EditText>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="@string/m" />
+
+                <EditText
+                    android:id="@+id/etSettingsMediumVodka"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:ems="10"
+                    android:inputType="number" >
+                </EditText>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="@string/l" />
+
+                <EditText
+                    android:id="@+id/etSettingsLargeVodka"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:ems="10"
+                    android:inputType="number" >
+                </EditText>
+            </LinearLayout>
+
+            <TextView
+                style="@style/Settingsh1TextView"
+                android:text="@string/h1Wine" />
+
+            <LinearLayout style="@style/SettingsRowLayout" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="@string/s" />
+
+                <EditText
+                    android:id="@+id/etSettingsSmallWine"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:ems="10"
+                    android:inputType="number" >
+                </EditText>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="@string/m" />
+
+                <EditText
+                    android:id="@+id/etSettingsMediumWine"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:ems="10"
+                    android:inputType="number" >
+                </EditText>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="@string/l" />
+
+                <EditText
+                    android:id="@+id/etSettingsLargeWine"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:ems="10"
+                    android:inputType="number" >
+                </EditText>
+            </LinearLayout>
+            
+            <LinearLayout style="@style/SettingsRowLayout" >
+
+                <TextView
+                    android:id="@+id/tvSetAlarm"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="Set alarm"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/bSetAlarm"
+                    style="@style/SettingsButtonClickable"
+                    android:text="Set" />
+            </LinearLayout>
+
+            <TimePicker
+                android:id="@+id/tpAlarmSet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

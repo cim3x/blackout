@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/customBg"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/svLockpadWrap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                style="@style/LockPadRow"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/ivVodka"
+                    style="@style/LockPadImageViewOption"
+                    android:src="@drawable/ic_vodka" />
+
+                <ImageView
+                    android:id="@+id/ivBeer"
+                    style="@style/LockPadImageViewOption"
+                    android:src="@drawable/ic_beer" />
+
+                <ImageView
+                    android:id="@+id/ivWine"
+                    style="@style/LockPadImageViewOption"
+                    android:src="@drawable/ic_wine" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/LockPadRow"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tvSmallUnit"
+                    style="@style/LockPadTextViewTable"
+                    android:text="@string/small" />
+
+                <TextView
+                    android:id="@+id/tvMediumUnit"
+                    style="@style/LockPadTextViewTable"
+                    android:background="@color/customBlack"
+                    android:text="@string/medium"
+                    android:textColor="@color/customLightBlue" />
+
+                <TextView
+                    android:id="@+id/tvLargeUnit"
+                    style="@style/LockPadTextViewTable"
+                    android:text="@string/large" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/LockPadRow"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivCigar"
+                    style="@style/LockPadImageViewOptionSmall"
+                    android:src="@drawable/ic_status_cigarette" />
+
+                <ImageView
+                    android:id="@+id/ivJoint"
+                    style="@style/LockPadImageViewOptionSmall"
+                    android:src="@drawable/ic_status_joint" />
+
+                <ImageView
+                    android:id="@+id/ivKiss"
+                    style="@style/LockPadImageViewOptionSmall"
+                    android:src="@drawable/ic_status_kiss" />
+                
+                <ImageView
+                    android:id="@+id/ivShisha"
+                    style="@style/LockPadImageViewOptionSmall"
+                    android:src="@drawable/ic_status_waterpipe" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+        
+        <com.firkinofbrain.blackout.ViewCanvas
+	        android:id="@+id/canvasLockPad"
+	        android:layout_width="match_parent"
+			android:layout_height="75dp"
+	    />
+
+
+            <TextView
+                android:id="@+id/tvDataBaseInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/customWhite"
+                android:background="@color/customAb"
+                android:textSize="20sp"
+                android:text="asdasd" />
+
+    </LinearLayout>
+
+</RelativeLayout>

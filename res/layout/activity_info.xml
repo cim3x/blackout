@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/customDarkBlue"
+            android:text="Let\&apos;s start"
+            android:textColor="@color/customWhite" />
+
+        <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info_startspot"
+            android:textColor="@color/customWhite" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:background="@color/customDarkBlue"
+            android:text="First step"
+            android:textColor="@color/customWhite" />
+
+        <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info_start"
+            android:textColor="@color/customWhite" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/customDarkBlue"
+            android:text="Recording activity"
+            android:textColor="@color/customWhite" />
+
+        <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info_lockpad"
+            android:textColor="@color/customWhite" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/customDarkBlue"
+            android:text="Taking photo"
+            android:textColor="@color/customWhite" />
+
+        <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info_photo"
+            android:textColor="@color/customWhite" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/customDarkBlue"
+            android:text="Ending activity"
+            android:textColor="@color/customWhite" />
+
+        <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info_end"
+            android:textColor="@color/customWhite" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/customDarkBlue"
+            android:text="Money icon"
+            android:textColor="@color/customWhite" />
+
+        <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info_usury"
+            android:textColor="@color/customWhite" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/customDarkBlue"
+            android:text="History"
+            android:textColor="@color/customWhite" />
+
+        <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info_history"
+            android:textColor="@color/customWhite" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/customDarkBlue"
+            android:text="History details"
+            android:textColor="@color/customWhite" />
+
+        <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info_historydetails"
+            android:textColor="@color/customWhite" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/customDarkBlue"
+            android:text="Map"
+            android:textColor="@color/customWhite" />
+
+        <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info_map"
+            android:textColor="@color/customWhite" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/customDarkBlue"
+            android:text="Settings"
+            android:textColor="@color/customWhite" />
+
+        <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info_settings"
+            android:textColor="@color/customWhite" />
+    </LinearLayout>
+
+</ScrollView>

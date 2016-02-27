@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/customBlack"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+    
+    <TextView
+            android:id="@+id/tvDialogLoginStatus"
+            style="@style/LoginTextView"/>
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/tvDialogLoginName"
+            style="@style/LoginTextView"
+            android:text="@string/dialog_login" />
+
+        <EditText
+            android:id="@+id/etDialogLoginName"
+            style="@style/CustomEditText">
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/tvDialogLoginPass"
+            style="@style/LoginTextView"
+            android:text="@string/dialog_password" />
+
+        <EditText
+            android:id="@+id/etDialogLoginPass"
+            style="@style/CustomEditText"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/notregister"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="#1DA9DA"/>
+
+    <Button
+        android:id="@+id/bDialogLogin"
+        style="@style/CustomButton"
+        android:text="@string/login" />
+
+</LinearLayout>

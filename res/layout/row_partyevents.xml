@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/ivRowEventsUser"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_menu_help" />
+
+    <ImageView
+        android:id="@+id/ivRowEventsType"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="20dp"
+        android:scaleType="fitXY" />
+    
+    <TextView
+        android:id="@+id/tvRowEventsInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/customWhite"
+        android:text="TextView" />
+    
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/customTransBg"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/SettingsHeaderTextView"
+        android:text="@string/dialog_title_geo" />
+
+    <EditText
+        android:id="@+id/etDialogGeoName"
+        style="@style/EditTextDialog"
+        android:hint="@string/dialog_whereareyou" >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/bDialogGeoSave"
+            style="@style/ButtonBorderLess"
+            android:text="@string/save" />
+
+        <Button
+            android:id="@+id/bDialogGeoCancel"
+            style="@style/ButtonBorderLess"
+            android:text="@string/cancel" />
+
+    </LinearLayout>
+
+</LinearLayout>
